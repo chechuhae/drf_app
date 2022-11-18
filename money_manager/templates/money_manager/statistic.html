@@ -1,0 +1,5 @@
+Hi dear {{ user }}  thanks for using money manager
+Your statistic:
+    {% for category in categories %}
+        {{ category.category_name }} --- {{ category.total }}
+    {% endfor %}
